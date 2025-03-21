@@ -576,6 +576,7 @@ body {
 }
 
 .modal-close-button {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -592,7 +593,6 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
 
 .modal-close-button:focus,
@@ -763,6 +763,7 @@ body {
   color: #4d5ae5;
 }
 .modal-submit-button {
+  cursor: pointer;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -780,7 +781,6 @@ body {
   margin-right: auto;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
 
 .modal-submit-button:focus,
